@@ -16,12 +16,14 @@ body {
 
 .container {
     background-color: white;
-    width: 450px; 
+    width: 500px; 
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
     box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
 }
+
+
 .container p#primero-paragrafo {
     margin-top: 5vh;
     margin-bottom: 5px;
@@ -29,14 +31,29 @@ body {
     font-size: 20px;
 }
 
+.container #segundo-paragrafo {
+  margin-top: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2;
+}
+
 .container div#plano {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 10px;
   margin: 20px;
   background-color: rgb(220, 216, 216);
+}
+
+.container #planoevalor {
+    margin-right: 150px;
+    display: block;
+    justify-content: space-around;
+    gap: 2;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 p#mudar > p {
@@ -76,4 +93,14 @@ p#cancelar-pedido a {
 
 footer {
     margin-top: 20px;
+}
+
+footer a {
+    color: #3862e1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: blue;
+    text-decoration: double;
 }
